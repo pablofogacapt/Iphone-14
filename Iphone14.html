@@ -84,7 +84,11 @@
                 criam imagens hiper-realistas, incrivelmente nítidas.</p>
         </div>
         <div>
-            <img src="imagens/img4 g.jpg" alt="img4">
+            <picture>
+                <source media="(max-width: 840px)" srcset="imagens/img4 m.jpg">
+                <source media="(max-width: 600px)" srcset="imagens/img4 p.png">
+                <img src="imagens/img4 g.jpg" alt="img4">
+            </picture>
         </div>
     </main>
 </body>
