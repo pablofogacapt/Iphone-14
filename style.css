@@ -100,19 +100,3 @@ div.price {
     text-align: center;
     margin-top: 15px;
 }
-
-div.buy {
-    margin-left: 45%;
-}
-
-div.buy h2{
-    border: 1px solid black;
-    width: 150px;
-    height: 40px;
-    text-align: center;
-    padding-top: 10px;
-    margin-bottom: 0px;
-    border-radius: 30px;
-    background-color: rgb(31, 107, 207);
-    color: white;
-}
