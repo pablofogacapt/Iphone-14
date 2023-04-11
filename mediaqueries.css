@@ -9,9 +9,11 @@
 @media screen and (max-width: 900px){
     div.name {
         text-align: center;
+        }
+}
+
+@media screen and (max-width: 900px){
+    div.burger {
+        display: block;
     }
-} {
-    
-} {
-    
 }
