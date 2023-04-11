@@ -1,12 +1,12 @@
 @charset "UTF-8";
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
     header a {
         display: none;
     }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 900px){
     div.name {
         text-align: center;
     }
