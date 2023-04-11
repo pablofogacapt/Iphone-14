@@ -9,9 +9,11 @@
 </head>
 <body>
     <header>
-        <img src="imagens/logo apple.jpeg" alt="Apple">
+        
 
-        <nav>
+        <nav id="global">
+            <img src="imagens/apple.jpeg" alt="Apple">
+
             <Ul>
                 <li>
                     <a href="#">Loja</a>
@@ -45,24 +47,30 @@
                 </li>
             </Ul>
         </nav>
+        <nav id="product">
+            <div class="name">
+                <h2>iPhone 14</h2>
+            </div>
+        </nav>
     </header>
     <main>
-        <div>
+        <div class="description">
             <h1>Uma maravilha atrás
                 da outra.</h1>
         </div>
         <div class="iphones">
-            <source media="(max-width: 840px)" srcset="imagens/img1 p.png">
-            <img src="imagens/img1 g.png" alt="img1">
+            <picture>
+                <img src="imagens/img1 g.png" alt="img1">
+            </picture>
         </div>
-        <div>
+        <div class="models">
             <h2>iPhone 14 e iPhone 14 Plus</h2>
         </div>
-        <div>
+        <div class="price">
             <h3>Desde 1039 €</h3>
         </div>
-        <div>
-            <button>Comprar</button>
+        <div class="buy">
+            <h2>Compre</h2>
         </div>
 
         <div>Em grande. E muito grande.</div>
@@ -85,8 +93,8 @@
         </div>
         <div>
             <picture>
-                <source media="(max-width: 840px)" srcset="imagens/img4 m.jpg">
                 <source media="(max-width: 600px)" srcset="imagens/img4 p.png">
+                <source media="(max-width: 840px)" srcset="imagens/img4 m.jpg">
                 <img src="imagens/img4 g.jpg" alt="img4">
             </picture>
         </div>
