@@ -3,7 +3,6 @@
     margin: 0;
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-style:initial;
     max-width: 100%;
 }
 
@@ -12,9 +11,22 @@
     src: url(fonts/SF-Pro-Text-Medium.otf) format(opentype);
 }
 
+body {
+    background-color: gray;
+    justify-content: space-around;
+    padding: 0px;
+    width: 100%;
+}
+
 header {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.284);
+    border-bottom: 0.5px solid rgba(95, 95, 95, 0.284);
+    width: 100%;
     box-shadow: 0px 1px     rgba(0, 0, 0, 0.079);
+    background-color: white;
+}
+
+header nav.principal {
+    width: 100;
 }
 
 header nav#global{
@@ -50,7 +62,11 @@ header li {
 
 header a{
     color: black;
-    font-weight: bold;
+}
+
+header a:hover {
+    color: blue;
+    text-decoration: underline;
 }
 
 header nav#product {
@@ -59,44 +75,95 @@ header nav#product {
     height: 50px;
 }
 
-div.name {
+main {
+    background-color: rgb(239, 239, 239);
+}
+
+main div{
+    background-color: white;
+    width: 95%;
+    text-align: center;
+    margin: auto;
+    min-width: 300px;
+    max-width: 100%;
+}
+
+div#element {
+    background-color: white;
+    width: 100%;
+    margin-bottom: 70px;
+}
+
+div.mom {
     width: 1000px;
-    justify-content: space-around;
-    display: inline-block;
-    margin: 0px 269px;
-    font-size: 0.7em;
-    font-family: Arial, Helvetica, sans-serif
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+div#name {
+    display: flex;
+    height: 50px;
+    width: 1000px;
+    margin: auto;
+}
+
+div
+
+div.description {
+    font-size: 1.5em;
+    padding-top: 50px;
 }
 
 div.description {
-    font-size: 2em;
-    max-width: 600px;
-    text-align: center;
-    margin: 0 auto;
-    margin-top: 50px;
-}
-
-div.iphones{
-    justify-content: space-around;
-    display: block;
-    text-align: center;
-}
-
-div.iphones img{
-    display: block;
-    justify-content: space-around;
-    margin: 0 auto;
+    background-color: white;
+    font-size: 1.6em;
 }
 
 div.models {
-    display: block;
-    justify-content: space-around;
-    text-align: center;
-    margin-top: 30px;
-    font-size: 1.2em;
+    font-size: 1.1em;
+    padding-top: 50px;
 }
 
 div.price {
-    text-align: center;
-    margin-top: 15px;
+    font-size: 1em;
+    padding-top: 20px;
+}
+
+div#buy {
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+
+div#buy button {
+    width: 90px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: blue;
+    color: white;
+}
+
+div#tools {
+    text-align: left;
+    font-size: 2.6vw;
+    width: 95%;
+    margin: auto;
+    font-weight: normal;
+}
+
+div#tools h2 {
+    padding-top: 50px;
+    padding-left: 200px;
+}
+
+div#pr {
+    display: inline-block;
+    width: 250px;
+    text-align: justify;
+    margin: 0 auto;
+    
+
+}
+
+div#girl {
+    display: inline-block;
 }
